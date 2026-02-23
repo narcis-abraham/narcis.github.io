@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background: #030302;
+    color: #f4e0ff;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: #1a1a1a;
+    border-radius: 12px;
+    /* box-shadow: 0 0 40px rgba(210,145,255,0.15); */
+}
+#neko {
+    width: 120px !important;
+    height: auto !important;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+a {
+    color: #db12ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sticker1 {
+    width: 180px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
